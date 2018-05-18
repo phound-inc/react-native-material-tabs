@@ -7,6 +7,7 @@ import {
   ViewStyle,
   TouchableOpacity,
   TouchableNativeFeedback,
+  TouchableWithoutFeedback,
 } from 'react-native';
 
 type TouchableProps = {
