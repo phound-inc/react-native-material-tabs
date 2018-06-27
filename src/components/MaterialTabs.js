@@ -160,6 +160,7 @@ export default class MaterialTabs extends React.Component<Props, State> {
         onLayout={event => this.getTabWidth(event.nativeEvent.layout.width)}
       >
         <ScrollView
+          keyboardShouldPersistTaps="always"
           horizontal
           ref={ref => (this.scrollView = ref)}
           showsHorizontalScrollIndicator={false}
